@@ -6,7 +6,7 @@ This repository contains the data sets, source code, and results of the paper. T
 
 ### Requirements
 
-- [Python 3.8](https://www.python.org/downloads/) or newer,
+- [Python 3.7.3](https://www.python.org/downloads/) or newer,
 - [Git](https://git-scm.com/downloads), and
 - A [Weight and Biases](https://wandb.ai/) (free) account.
 
@@ -24,7 +24,7 @@ and create an instance of jupyter notebooks by:
 jupyter notebook
 ```
 
-**Note:** This requirements.txt file was automatically generated from the poetry specs by running `poetry export -f requirements.txt --output requirements.txt --without-hashes`.
+**Note:** This `requirements.txt` file was automatically generated from the poetry specs by running `poetry export -f requirements.txt --output requirements.txt --without-hashes`.
 
 ### Option 2: Using poetry
 
