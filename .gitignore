@@ -1,7 +1,8 @@
-__pycache__/
+py__pycache__/
 .ipynb_checkpoints/
 lightning_logs/
 wandb/
 *.py[cod]
 *.pth
 .DS_Store
+.vscode/settings.json
