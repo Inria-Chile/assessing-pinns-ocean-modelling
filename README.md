@@ -33,3 +33,12 @@ $ jupyter notebook
 From here you can navigate to `Notebooks` to find the code used for the paper. You need to put the WandB key when it asks you, which you can find under Settings in your WandB account.
 
 In `Data` you can find the data sets, and in `Plots` the results and the code to produce the plots of the paper.
+
+### Google Colab
+In order to execute the notebooks in Google Colab, it's necessary to upload the notebook and the data sets to Google Colab. As the `wandb` package is not installed by default, it is required to add the following line before importing the dependencies in the notebook:
+
+```
+!pip install wandb
+
+#import ...
+```
