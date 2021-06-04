@@ -52,5 +52,6 @@ jupyter notebook
 ## Reproducing results
 
 1. Run `jupyter notebook` and navigate to `Notebooks` to find the code used for the paper.
-2. You need to put the WandB key when asked, which you can find under Settings in your WandB account.
-3. In `Data` you can find the data sets, and in `Plots` the results and the code to produce the plots of the paper.
+2. You need to enter the WandB key when asked, which you can find under Settings in your WandB account.
+3. The `Data` folder contains the datasets used in the experiments.
+4. For the sake of completeness we have incuded in the folder `Plots` the results and the code to produce the plots used in the paper.
